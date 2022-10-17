@@ -1,8 +1,8 @@
-
 <suite thread-count="1" verbose="1" name="E-commerce portal automation">
-<test name="E-commerce portal signup">
-    <classes>
-        <class name="testRunner.CreateAccountTest"/>
-    </classes>
-</test>
+    <test name="E-commerce Create Account">
+        <classes>
+            <class name="testRunner.CreateAccountTest"/>
+            <class name="testRunner.AddToCartTest"/>
+        </classes>
+    </test>
 </suite>

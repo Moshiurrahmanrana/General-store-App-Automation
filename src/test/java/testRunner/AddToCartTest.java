@@ -6,7 +6,7 @@ import screens.ShoppingCart;
 
 public class AddToCartTest extends Setup {
     @Test
-    public void runTest() {
+    public void runTest() throws InterruptedException {
         ShoppingCart testCase = new ShoppingCart(driver);
         testCase.addToCart();
     }
