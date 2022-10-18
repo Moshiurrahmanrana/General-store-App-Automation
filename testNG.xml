@@ -2,6 +2,10 @@
     <test name="E-commerce Create Account">
         <classes>
             <class name="testRunner.CreateAccountTest"/>
+        </classes>
+    </test>
+    <test name="E-commerce Add To Cart">
+        <classes>
             <class name="testRunner.AddToCartTest"/>
         </classes>
     </test>

@@ -1,7 +1,6 @@
 package testRunner;
 
 import base.Setup;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import screens.ShoppingCart;
 
